@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1">
+            <div className="grid grid-cols-1 max-w-6xl  mx-auto">
                 <div>
                     <div className="font-bold text-gray-base py-4 justify-end flex space-x-3 flex-row lg:text-xs">
                         <div>Siparişlerim</div>
@@ -26,11 +26,11 @@ const Header = () => {
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                 </button>
                             </span>
-                            <input className={`focus-within:border-orange-base w-full border-2 border-gray-base p-2 text-sm text-white  rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900`} placeholder="Ürün, kategori veya marka ara" autocomplete="off" />
+                            <input className={`focus-within:border-orange-base w-full border-2 border-gray-base py-3  text-sm text-white  rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900`} placeholder="Ürün, kategori veya marka ara" autocomplete="off" />
                             <span className="absolute inset-y-0 right-0 flex items-center ">
                                 <button
                                     id="buttoncolor"
-                                    className={`h-full py-0 px-5 bg-orange-base text-white sm:text-sm rounded-r-md  `}
+                                    className={`h-full py-0 px-5 bg-gray-base text-white sm:text-sm rounded-r-md font-bold  `}
                                 >
                                     ARA
                                 </button>
@@ -45,10 +45,50 @@ const Header = () => {
                     </div>
                 </div>
                 <div>
-                    
+
                 </div>
                 <div>
-                    
+
+                </div>
+            </div>
+            <div className="mt-4 grid grid-cols-7">
+                <div className="bg-purple-800 pb-2"></div>
+                <div className="bg-blue-400 pb-2" ></div>
+                <div className="col-span-2 bg-red-500 pb-2"></div>
+                <div className="bg-yellow-400 pb-2"></div>
+                <div className="bg-red-900 pb-2"></div>
+                <div className="bg-green-600 pb-2"></div>
+            </div>
+            <div className=" bg-gray-header py-2">
+                <div className="max-w-6xl grid grid-cols-9 mx-auto items-center text-center text-sm font-semibold">
+                    <div className="px-4">
+                        Elektronik
+                    </div>
+                    <div className="px-4">
+                        Moda
+                    </div>
+                    <div className="px-4">
+                        Ev, Yaşam, Kırtasiye, Ofis
+                    </div>
+                    <div className="px-4">
+                        Oto, Bahçe, Yapı Market
+                    </div>
+                    <div className="px-4">
+                        Anne, Bebek, Oyuncak
+                    </div>
+                    <div className="px-4">
+                        Spor, Outdoor
+                    </div>
+                    <div className="px-4">
+                        Kozmetik, Kişisel Bakım
+                    </div>
+                    <div className="px-4">
+                        Süpermarket, Pet Shop
+                    </div>
+                    <div className="px-4">
+                        Kitap, Müzik, Film, Hobi
+                    </div>
+
                 </div>
             </div>
         </div>
