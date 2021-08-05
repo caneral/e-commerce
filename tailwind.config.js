@@ -6,10 +6,11 @@ module.exports = {
       colors: {
         gray: {
           base: "#919191",
+          header: "#F5F5F5"
         },
         orange: {
           base: "#ff6000",
-        }
+        },
       }
     },
   },
