@@ -1,5 +1,11 @@
 import React from 'react'
-
+import Facebook from '../assets/facebook.svg'
+import Twitter from '../assets/twitter.svg'
+import LinkedIn from '../assets/linkedin.svg'
+import Pinterest from '../assets/pinterest.svg'
+import Instagram from '../assets/instagram.svg'
+import YouTube from '../assets/youtube.svg'
+import Whatsapp from '../assets/whatsapp.png'
 const Footer = () => {
     return (
         <div className="max-w-6xl pt-12 mx-auto  ">
@@ -56,58 +62,118 @@ const Footer = () => {
                 <div>
                     <div className="font-medium pb-8">Hepsiburada.com</div>
                     <div className="text-sm  space-y-2 text-gray-base font-semibold">
-                    <div>Hakkımızda</div>
-                    <div>About Us</div>
-                    <div>Investor Relations</div>
-                    <div>İşlem Rehberi</div>
-                    <div>İletişim</div>
-                    <div>Hesabım</div>
-                    <div>Çözüm Merkezi</div>
-                    <div>Hepsiburada.com Twitter Destek</div>
-                    <div>Mobil Uygulamalar</div>
-                    <div>Bilgi Toplumu Hizmetleri</div>
-                    <div>Güvenli Alışveriş Kılavuzu</div>
-                    <div>Kişisel Verilerin Korunması</div>
-                    <div>İş Sağlığı ve Güvenliği Çevre Politikamız</div>
-                    <div>Hepsiburada ile E-ticaret Reklamcılığı</div>
-                    <div>Kurumsal Hediye Çeki</div>
+                        <div>Hakkımızda</div>
+                        <div>About Us</div>
+                        <div>Investor Relations</div>
+                        <div>İşlem Rehberi</div>
+                        <div>İletişim</div>
+                        <div>Hesabım</div>
+                        <div>Çözüm Merkezi</div>
+                        <div>Hepsiburada.com Twitter Destek</div>
+                        <div>Mobil Uygulamalar</div>
+                        <div>Bilgi Toplumu Hizmetleri</div>
+                        <div>Güvenli Alışveriş Kılavuzu</div>
+                        <div>Kişisel Verilerin Korunması</div>
+                        <div>İş Sağlığı ve Güvenliği Çevre Politikamız</div>
+                        <div>Hepsiburada ile E-ticaret Reklamcılığı</div>
+                        <div>Kurumsal Hediye Çeki</div>
 
                     </div>
                 </div>
                 <div>
                     <div className="font-medium pb-8">Kategoriler</div>
                     <div className="text-sm  space-y-2 text-gray-base font-semibold">
-                    <div>Bilgisayar / Elektronik</div>
-                    <div>Telefon Fiyatları / Cep Telefonu</div>
-                    <div>Beyaz Eşya / Mutfak</div>
-                    <div>Foto / Kamera</div>
-                    <div>Spıor / Outdoor</div>
-                    <div>Giyim / Ayakkabı</div>
-                    <div>Takı / Mücevher</div>
-                    <div>Saat / Gözlük / Aksesuar</div>
-                    <div>Kozmetik / Kişisel Bakım</div>
-                    <div>Anne {'&'} Bebek</div>
-                    <div>Oyuncak</div>
-                    <div>Kitap / Film / Müzik</div>
-                    <div>Hobi / Oyun Konsolu</div>
-                    <div>Kırtasiye / Ofis</div>
-                    <div>Oto Aksesuar / Yapı Market / Bahçe</div>
-                    <div>Kış Lastiği</div>
-                    <div>Ev Dekorasyonu / Mobilya </div>
-                    <div>Pet Shop / Süpermarket</div>
-                    <div>Duvar Kağıdı / Hesap Makinesi</div>
-                    <div>Led Tv / Parfüm</div>
-                    <div>Bebek Arabası / Bebek Bezi</div>
+                        <div>Bilgisayar / Elektronik</div>
+                        <div>Telefon Fiyatları / Cep Telefonu</div>
+                        <div>Beyaz Eşya / Mutfak</div>
+                        <div>Foto / Kamera</div>
+                        <div>Spor / Outdoor</div>
+                        <div>Giyim / Ayakkabı</div>
+                        <div>Takı / Mücevher</div>
+                        <div>Saat / Gözlük / Aksesuar</div>
+                        <div>Kozmetik / Kişisel Bakım</div>
+                        <div>Anne {'&'} Bebek</div>
+                        <div>Oyuncak</div>
+                        <div>Kitap / Film / Müzik</div>
+                        <div>Hobi / Oyun Konsolu</div>
+                        <div>Kırtasiye / Ofis</div>
+                        <div>Oto Aksesuar / Yapı Market / Bahçe</div>
+                        <div>Kış Lastiği</div>
+                        <div>Ev Dekorasyonu / Mobilya </div>
+                        <div>Pet Shop / Süpermarket</div>
+                        <div>Duvar Kağıdı / Hesap Makinesi</div>
+                        <div>Led Tv / Parfüm</div>
+                        <div>Bebek Arabası / Bebek Bezi</div>
 
                     </div>
                 </div>
                 <div>
-                <div className="font-medium pb-8">Özel Sayfalar</div>
+                    <div className="font-medium pb-8">Özel Sayfalar</div>
+                    <div className="text-sm  space-y-2 text-gray-base font-semibold">
+                        <div>Sevgililer Günü</div>
+                        <div>Anneler Günü</div>
+                        <div>Yılbaşı Hediyeleri</div>
+                        <div>Babalar Günü</div>
+                        <div>Airpods</div>
+                        <div>Playstation 5</div>
+                        <div>Mi Band 5</div>
+                        <div>Evony Maske</div>
+                        <div>Bluetooth Kulaklık</div>
+                        <div>Maske</div>
+                        <div>Uçak Bileti</div>
+                        <div>Okul Çantası</div>
+                        <div>Tüm Kategoriler</div>
+                        <div>Tüm Satıcılar</div>
+                    </div>
                 </div>
                 <div>
-                <div className="font-medium pb-8">Bizi Takip Edin</div>
+                    <div className="font-medium pb-8">Bizi Takip Edin</div>
+                    <div className="text-sm space-y-2 text-gray-base font-semibold">
+                        <div className="flex items-center">
+                            <img src={Facebook} width="32" className="mr-2" />
+                            Facebook
+                        </div>
+                        <div className="flex items-center">
+                            <img src={Twitter} width="32" className="mr-2" />
+                            Twitter
+                        </div>
+                        <div className="flex items-center">
+                            <img src={LinkedIn} width="32" className="mr-2" />
+                            LinkedIn
+                        </div>
+                        <div className="flex items-center">
+                            <img src={Pinterest} width="32" className="mr-2" />
+                            Pinterest
+                        </div>
+                        <div className="flex items-center">
+                            <img src={Instagram} width="32" className="mr-2" />
+                            Instagram
+                        </div>
+                        <div className="flex items-center ">
+                            <img src={YouTube} width="32" className="mr-2 " />
+                            YouTube
+                        </div>
+                    </div>
                 </div>
-                <div>5</div>
+                <div>
+                    <div className="font-semibold pb-4 mx-8 text-center">Aklınıza takılan bir soru mu var?</div>
+                    <button className="border border-black text-gray-base rounded-md w-full py-2 text-sm mb-4 font-semibold">Çözüm Merkezine bağlanın</button>
+                    <div className="grid grid-cols-3 items-center space-x-2">
+                        <hr />
+                        <div className="text-sm text-center text-gray-base mb-4">
+                            veya
+                        </div>
+                        <hr />
+                    </div>
+                    <div className="text-center text-xs">
+                        Çağrı Merkezimizi arayın
+                    </div>
+                    <div className="text-center font-semibold text-xl mb-4">0850 252 40 00</div>
+                    <div className="flex justify-center">
+                        <img src={Whatsapp} width="24"/>
+                        <p className="ml-2">WhatsApp Destek</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
