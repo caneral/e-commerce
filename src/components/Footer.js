@@ -58,124 +58,278 @@ const Footer = () => {
                 </div>
                 <hr />
             </div>
-            <div className="grid grid-cols-5">
+            <div className="grid grid-cols-5 space-x-4">
                 <div>
-                    <div className="font-medium pb-8">Hepsiburada.com</div>
-                    <div className="text-sm  space-y-2 text-gray-base font-semibold">
-                        <div>Hakkımızda</div>
-                        <div>About Us</div>
-                        <div>Investor Relations</div>
-                        <div>İşlem Rehberi</div>
-                        <div>İletişim</div>
-                        <div>Hesabım</div>
-                        <div>Çözüm Merkezi</div>
-                        <div>Hepsiburada.com Twitter Destek</div>
-                        <div>Mobil Uygulamalar</div>
-                        <div>Bilgi Toplumu Hizmetleri</div>
-                        <div>Güvenli Alışveriş Kılavuzu</div>
-                        <div>Kişisel Verilerin Korunması</div>
-                        <div>İş Sağlığı ve Güvenliği Çevre Politikamız</div>
-                        <div>Hepsiburada ile E-ticaret Reklamcılığı</div>
-                        <div>Kurumsal Hediye Çeki</div>
+                    <div className="pb-8">
 
+                        <div className="font-medium pb-8">Hepsiburada.com</div>
+                        <div className="text-sm  space-y-2 text-gray-base font-semibold">
+                            <div>Hakkımızda</div>
+                            <div>About Us</div>
+                            <div>Investor Relations</div>
+                            <div>İşlem Rehberi</div>
+                            <div>İletişim</div>
+                            <div>Hesabım</div>
+                            <div>Çözüm Merkezi</div>
+                            <div>Hepsiburada.com Twitter Destek</div>
+                            <div>Mobil Uygulamalar</div>
+                            <div>Bilgi Toplumu Hizmetleri</div>
+                            <div>Güvenli Alışveriş Kılavuzu</div>
+                            <div>Kişisel Verilerin Korunması</div>
+                            <div>İş Sağlığı ve Güvenliği Çevre Politikamız</div>
+                            <div>Hepsiburada ile E-ticaret Reklamcılığı</div>
+                            <div>Kurumsal Hediye Çeki</div>
+                        </div>
+                    </div>
+                    <div className="pb-8">
+                        <div className="font-medium pb-8">Hepsiburada Kariyer</div>
+                        <div className="text-sm space-y-2 text-gray-base font-semibold">
+                            <div>
+                                Linkedin
+                            </div>
+                            <div>
+                                Kariyer.net
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="font-medium pb-8">Kurumsal</div>
+                        <div className="text-sm space-y-2 text-gray-base font-semibold">
+                            <div>
+                                Tedarikçi Olmak İstiyorum
+                            </div>
+                            <div>
+                                Hepsipay İşyeri Olmak İstiyorum
+                            </div>
+                            <div>
+                                Tedarikçi Davranış Kuralları
+                            </div>
+                            <div>
+                                Girişimci Kadınlara Teknoloji Gücü
+                            </div>
+                            <div>
+                                Teslimat Noktası Olmak İstiyorum
+                            </div>
+                            <div>
+                                Hepsiburada'da Satıcı Ol
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="font-medium pb-8">Kategoriler</div>
-                    <div className="text-sm  space-y-2 text-gray-base font-semibold">
-                        <div>Bilgisayar / Elektronik</div>
-                        <div>Telefon Fiyatları / Cep Telefonu</div>
-                        <div>Beyaz Eşya / Mutfak</div>
-                        <div>Foto / Kamera</div>
-                        <div>Spor / Outdoor</div>
-                        <div>Giyim / Ayakkabı</div>
-                        <div>Takı / Mücevher</div>
-                        <div>Saat / Gözlük / Aksesuar</div>
-                        <div>Kozmetik / Kişisel Bakım</div>
-                        <div>Anne {'&'} Bebek</div>
-                        <div>Oyuncak</div>
-                        <div>Kitap / Film / Müzik</div>
-                        <div>Hobi / Oyun Konsolu</div>
-                        <div>Kırtasiye / Ofis</div>
-                        <div>Oto Aksesuar / Yapı Market / Bahçe</div>
-                        <div>Kış Lastiği</div>
-                        <div>Ev Dekorasyonu / Mobilya </div>
-                        <div>Pet Shop / Süpermarket</div>
-                        <div>Duvar Kağıdı / Hesap Makinesi</div>
-                        <div>Led Tv / Parfüm</div>
-                        <div>Bebek Arabası / Bebek Bezi</div>
+                    <div className="pb-8">
+                        <div className="font-medium pb-8">Kategoriler</div>
+                        <div className="text-sm  space-y-2 text-gray-base font-semibold">
+                            <div>Bilgisayar / Elektronik</div>
+                            <div>Telefon Fiyatları / Cep Telefonu</div>
+                            <div>Beyaz Eşya / Mutfak</div>
+                            <div>Foto / Kamera</div>
+                            <div>Spor / Outdoor</div>
+                            <div>Giyim / Ayakkabı</div>
+                            <div>Takı / Mücevher</div>
+                            <div>Saat / Gözlük / Aksesuar</div>
+                            <div>Kozmetik / Kişisel Bakım</div>
+                            <div>Anne {'&'} Bebek</div>
+                            <div>Oyuncak</div>
+                            <div>Kitap / Film / Müzik</div>
+                            <div>Hobi / Oyun Konsolu</div>
+                            <div>Kırtasiye / Ofis</div>
+                            <div>Oto Aksesuar / Yapı Market / Bahçe</div>
+                            <div>Kış Lastiği</div>
+                            <div>Ev Dekorasyonu / Mobilya </div>
+                            <div>Pet Shop / Süpermarket</div>
+                            <div>Duvar Kağıdı / Hesap Makinesi</div>
+                            <div>Led Tv / Parfüm</div>
+                            <div>Bebek Arabası / Bebek Bezi</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="font-medium pb-8">Popüler Telefonlar</div>
+                        <div className="text-sm  space-y-2 text-gray-base font-semibold">
+                            <div>iPhone XR / iPhone XS</div>
+                            <div>iPhone XS Max / iPhone 7</div>
+                            <div>iPhone 7 Plus / iPhone X / iPhone SE</div>
+                            <div>iPhone 8 Plus / iPhone 8 / iPhone 11</div>
+                            <div>iPhone 11 Pro / iPhone 11 Pro Max</div>
+                            <div>iPhone 12 / iPhone 12 Pro</div>
+                            <div>iPhone 12 Mini / iPhone 12 Pro Max</div>
+                            <div>Galaxy S9 / Galaxy Note 8</div>
+                            <div>S20 / S20 Plus / S20 Ultra</div>
+                            <div>Galaxy Note 10 Plus / Galaxy</div>
+                            <div>Note 10 Galaxy Note 20 / Galaxy</div>
+                            <div>Note 20 Ultra / Galaxy S21 /</div>
+                            <div>Galaxy S21 Plus / Galaxy S21 Ultra</div>
+                            <div>Xiaomi Mi 10 / Xiaomi Mi Note</div>
+                            <div>10 / Xiaomi Redmi Note 9</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="pb-8">
+                        <div className="font-medium pb-8">Özel Sayfalar</div>
+                        <div className="text-sm  space-y-2 text-gray-base font-semibold">
+                            <div>Sevgililer Günü</div>
+                            <div>Anneler Günü</div>
+                            <div>Yılbaşı Hediyeleri</div>
+                            <div>Babalar Günü</div>
+                            <div>Airpods</div>
+                            <div>Playstation 5</div>
+                            <div>Mi Band 5</div>
+                            <div>Evony Maske</div>
+                            <div>Bluetooth Kulaklık</div>
+                            <div>Maske</div>
+                            <div>Uçak Bileti</div>
+                            <div>Okul Çantası</div>
+                            <div>Tüm Kategoriler</div>
+                            <div>Tüm Satıcılar</div>
+                        </div>
+                    </div>
+                    <div className="pb-8">
+                        <div className="font-medium pb-8">Popüler Markalar</div>
+                        <div className="text-sm  space-y-2 text-gray-base font-semibold">
+                            <div>Avon</div>
+                            <div>Samsung</div>
+                            <div>Adidas</div>
+                            <div>Nike</div>
+                            <div>Apple</div>
+                            <div>Vestel</div>
+                            <div>Bosch</div>
+                            <div>New Balance</div>
+                            <div>Defacto</div>
+                            <div>Lacoste</div>
+                            <div>Asus</div>
+                            <div>Lego</div>
+                            <div>Koton</div>
+                            <div>Fairy</div>
+                            <div>Mavi</div>
+                            <div>Under Armour</div>
+                            <div>Wasa</div>
+                            <div>Tüm Markalar</div>
+                        </div>
+                    </div>
 
-                    </div>
                 </div>
                 <div>
-                    <div className="font-medium pb-8">Özel Sayfalar</div>
-                    <div className="text-sm  space-y-2 text-gray-base font-semibold">
-                        <div>Sevgililer Günü</div>
-                        <div>Anneler Günü</div>
-                        <div>Yılbaşı Hediyeleri</div>
-                        <div>Babalar Günü</div>
-                        <div>Airpods</div>
-                        <div>Playstation 5</div>
-                        <div>Mi Band 5</div>
-                        <div>Evony Maske</div>
-                        <div>Bluetooth Kulaklık</div>
-                        <div>Maske</div>
-                        <div>Uçak Bileti</div>
-                        <div>Okul Çantası</div>
-                        <div>Tüm Kategoriler</div>
-                        <div>Tüm Satıcılar</div>
-                    </div>
-                </div>
-                <div>
-                    <div className="font-medium pb-8">Bizi Takip Edin</div>
-                    <div className="text-sm space-y-2 text-gray-base font-semibold">
-                        <div className="flex items-center">
-                            <img src={Facebook} width="32" className="mr-2" />
-                            Facebook
-                        </div>
-                        <div className="flex items-center">
-                            <img src={Twitter} width="32" className="mr-2" />
-                            Twitter
-                        </div>
-                        <div className="flex items-center">
-                            <img src={LinkedIn} width="32" className="mr-2" />
-                            LinkedIn
-                        </div>
-                        <div className="flex items-center">
-                            <img src={Pinterest} width="32" className="mr-2" />
-                            Pinterest
-                        </div>
-                        <div className="flex items-center">
-                            <div className="mr-2">
-                                <svg className="fill-current text-gray-icon" height="32" viewBox="0 0 512 512" width="32" xmlns="http://www.w3.org/2000/svg"><path  d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/></svg>
+                    <div className="pb-8">
+                        <div className="font-medium pb-8">Bizi Takip Edin</div>
+                        <div className="text-sm space-y-2 text-gray-base font-semibold">
+                            <div className="flex items-center">
+                                <img src={Facebook} width="32" className="mr-2" />
+                                Facebook
                             </div>
-                            Instagram
-                        </div>
-                        <div className="flex items-center ">
-                            <div className="mr-2">
-                            <svg className="fill-current text-gray-icon" height="32" viewBox="0 0 512 512" width="32" xmlns="http://www.w3.org/2000/svg"><path  d="m224.113281 303.960938 83.273438-47.960938-83.273438-47.960938zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm159.960938 256.261719s0 51.917969-6.585938 76.953125c-3.691406 13.703125-14.496094 24.507812-28.199219 28.195312-25.035156 6.589844-125.175781 6.589844-125.175781 6.589844s-99.878906 0-125.175781-6.851562c-13.703125-3.6875-24.507813-14.496094-28.199219-28.199219-6.589844-24.769531-6.589844-76.949219-6.589844-76.949219s0-51.914062 6.589844-76.949219c3.6875-13.703125 14.757812-24.773437 28.199219-28.460937 25.035156-6.589844 125.175781-6.589844 125.175781-6.589844s100.140625 0 125.175781 6.851562c13.703125 3.6875 24.507813 14.496094 28.199219 28.199219 6.851562 25.035157 6.585938 77.210938 6.585938 77.210938zm0 0"/></svg>
+                            <div className="flex items-center">
+                                <img src={Twitter} width="32" className="mr-2" />
+                                Twitter
                             </div>
-                            YouTube
+                            <div className="flex items-center">
+                                <img src={LinkedIn} width="32" className="mr-2" />
+                                LinkedIn
+                            </div>
+                            <div className="flex items-center">
+                                <img src={Pinterest} width="32" className="mr-2" />
+                                Pinterest
+                            </div>
+                            <div className="flex items-center">
+                                <div className="mr-2">
+                                    <svg className="fill-current text-gray-icon" height="32" viewBox="0 0 512 512" width="32" xmlns="http://www.w3.org/2000/svg"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0" /><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0" /><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0" /></svg>
+                                </div>
+                                Instagram
+                            </div>
+                            <div className="flex items-center ">
+                                <div className="mr-2">
+                                    <svg className="fill-current text-gray-icon" height="32" viewBox="0 0 512 512" width="32" xmlns="http://www.w3.org/2000/svg"><path d="m224.113281 303.960938 83.273438-47.960938-83.273438-47.960938zm0 0" /><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm159.960938 256.261719s0 51.917969-6.585938 76.953125c-3.691406 13.703125-14.496094 24.507812-28.199219 28.195312-25.035156 6.589844-125.175781 6.589844-125.175781 6.589844s-99.878906 0-125.175781-6.851562c-13.703125-3.6875-24.507813-14.496094-28.199219-28.199219-6.589844-24.769531-6.589844-76.949219-6.589844-76.949219s0-51.914062 6.589844-76.949219c3.6875-13.703125 14.757812-24.773437 28.199219-28.460937 25.035156-6.589844 125.175781-6.589844 125.175781-6.589844s100.140625 0 125.175781 6.851562c13.703125 3.6875 24.507813 14.496094 28.199219 28.199219 6.851562 25.035157 6.585938 77.210938 6.585938 77.210938zm0 0" /></svg>
+                                </div>
+                                YouTube
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pb-8">
+                        <div className="font-medium pb-8">Ödeme</div>
+                        <div className="text-sm space-y-2 text-gray-base font-semibold">
+                            <div>
+                                Ödeme Seçenekleri
+                            </div>
+                            <div>
+                                Banka Kampanyaları
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="font-semibold pb-4 mx-8 text-center">Aklınıza takılan bir soru mu var?</div>
-                    <button className="border border-black text-gray-base rounded-md w-full py-2 text-sm mb-4 font-semibold">Çözüm Merkezine bağlanın</button>
-                    <div className="grid grid-cols-3 items-center space-x-2">
-                        <hr />
-                        <div className="text-sm text-center text-gray-base mb-4">
-                            veya
+                    <div className="pb-8">
+                        <div className="font-semibold pb-4 mx-8 text-center">Aklınıza takılan bir soru mu var?</div>
+                        <button className="border border-black text-gray-base rounded-md w-full py-2 text-sm mb-4 font-semibold">Çözüm Merkezine bağlanın</button>
+                        <div className="grid grid-cols-3 items-center space-x-2">
+                            <hr />
+                            <div className="text-sm text-center text-gray-base mb-4">
+                                veya
+                            </div>
+                            <hr />
                         </div>
-                        <hr />
+                        <div className="text-center text-xs">
+                            Çağrı Merkezimizi arayın
+                        </div>
+                        <div className="text-center font-semibold text-xl mb-4">0850 252 40 00</div>
+                        <div className="flex justify-center">
+                            <img src={Whatsapp} width="24" />
+                            <p className="ml-2">WhatsApp Destek</p>
+                        </div>
                     </div>
-                    <div className="text-center text-xs">
-                        Çağrı Merkezimizi arayın
-                    </div>
-                    <div className="text-center font-semibold text-xl mb-4">0850 252 40 00</div>
-                    <div className="flex justify-center">
-                        <img src={Whatsapp} width="24"/>
-                        <p className="ml-2">WhatsApp Destek</p>
+                    <div className="pb-8">
+                        <div className="font-semibold pb-4 ">Mobil Uygulamalar</div>
+                        <div className="pb-4">
+                            <button className="border border-gray-300 rounded-md grid grid-cols-4 py-1 text-xs items-center">
+                                <div className="mx-auto" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="16" height="24" viewBox="-1 -1 16 24" x="887" y="661.13"> <path d="M12 22H2a2 2 0 01-2-2V2a2 2 0 012-2h10a2 2 0 012 2v18a2 2 0 01-2 2zm-5-1a1 1 0 100-2 1 1 0 000 2zM9 2H5v1h4V2zm3 3a1 1 0 00-1-1H3a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V5z" fill-rule="evenodd" fill="#919191"></path> </svg>
+                                </div>
+                                <div className="col-span-3 grid grid-cols-1 mr-14">
+                                    <p className="font-semibold text-gray-500">APP STORE'dan</p>
+                                    <p className="text-gray-300">İNDİREBİLİRSİNİZ</p>
+                                </div>
+                            </button>
+
+                        </div>
+                        <div className="pb-4">
+                            <button className="border border-gray-300 rounded-md flex py-1 text-xs items-center">
+                                <div className="mx-4" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="27" viewBox="-1 -1 23 27" x="538" y="223"> <path d="M19.5 9a1.5 1.5 0 00-1.5 1.5v6a1.5 1.5 0 003 0v-6A1.5 1.5 0 0019.5 9zm-18 0A1.5 1.5 0 000 10.5v6a1.5 1.5 0 003 0v-6A1.5 1.5 0 001.5 9zM4 18a1.847 1.847 0 002 2h1v3c0 .825.675 2 1.5 2s1.5-1.175 1.5-2v-3h1v3c0 .825.675 2 1.5 2s1.5-1.175 1.5-2v-3h1a1.847 1.847 0 002-2v-8H4v8zm9.189-15.761l.918-1.945a.211.211 0 00-.077-.27.174.174 0 00-.245.085l-.932 1.975a5.975 5.975 0 00-4.707 0L7.214.109a.174.174 0 00-.245-.085.211.211 0 00-.077.27l.918 1.945A7.186 7.186 0 004.01 8h12.98a7.186 7.186 0 00-3.801-5.761zM8 7.01a1 1 0 11.99-1 1 1 0 01-.99 1zm4.993 0a1 1 0 11.99-1 1 1 0 01-.983 1z" fill="#919191" fill-rule="evenodd"></path> </svg>
+                                </div>
+                                <div className=" grid grid-cols-1 pr-10">
+                                    <p className="font-semibold text-gray-500">GOOGLE PLAY'den</p>
+                                    <p className="text-gray-300">İNDİREBİLİRSİNİZ</p>
+                                </div>
+                            </button>
+
+                        </div>
+                        <div className="pb-4">
+                            <button className="border border-gray-300 rounded-md flex  py-1 text-xs items-center">
+                                <div className="px-3">
+                                    <img width="26" height="26" src="https://images.hepsiburada.net/banners/0/imageUrl2071_20200630140424.png" loading="lazy" alt="Huawei" />
+                                </div>
+                                <div className="grid grid-cols-1 pr-12">
+                                    <p className="font-semibold text-gray-500">APP GALLERY'den</p>
+                                    <p className="text-gray-300">İNDİREBİLİRSİNİZ</p>
+                                </div>
+                            </button>
+
+                        </div>
+                        <div >
+                            <div className="font-medium py-8">Giyim-Moda</div>
+                            <div className="text-sm space-y-2 text-gray-base font-semibold">
+                                <div>
+                                    Etek / Elbise / Tunik / Trençkot
+                                </div>
+                                <div>
+                                    Ayakkabı / Spor Ayakkabı
+                                </div>
+                                <div>
+                                    Abiye Elbise / Çanta
+                                </div>
+                                <div>
+                                    Nike Air Force / Nike Air Max
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
