@@ -13,8 +13,11 @@ const HomeSlider = () => {
         <div className="max-w-screen-2xl mx-auto">
             <Slider {...settings}>
                 <div className="bg-yellow-300 pb-10">
-                    <div className="flex justify-center py-4">
-                        Top bar
+                    <div className="flex justify-center py-4 gap-x-8 text-sm">
+                        <button className="rounded-2xl bg-white px-4 py-1 font-semibold">Bugüne Özel</button>
+                        <button className="font-semibold  ">Okula Dönüş</button>
+                        <button className="font-semibold">Kampanyalar</button>
+                        <button className="font-semibold">Ayrıcalıklar</button>
                     </div>
                     <div className="bg-white rounded-md max-w-5xl mx-auto shadow-lg grid grid-cols-3 justify-items-stretch items-center">
                         <div className="text-left">
